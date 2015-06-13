@@ -8,6 +8,8 @@ import java.util.ArrayList;
  */
 public class Cliente {
     ArrayList<String> nombre = new ArrayList<String>();
-    
+    ArrayList<String> apellido = new ArrayList<String>();
+    ArrayList<Integer> edad= new ArrayList<Integer>();
+    ArrayList<String> direccion = new ArrayList<String>();
     
 }
