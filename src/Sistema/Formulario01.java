@@ -14,13 +14,13 @@ public class Formulario01 extends javax.swing.JInternalFrame {
     private void initComponents() {
 
         jcMousePanel1 = new jcMousePanel.jcMousePanel();
-        lblIcono1 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
         lbluser = new javax.swing.JLabel();
-        txtuser = new javax.swing.JTextField();
-        lblpassword = new javax.swing.JLabel();
-        Contraseña = new javax.swing.JPasswordField();
-        btninicio = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
+        txtusername = new javax.swing.JTextField();
+        password = new javax.swing.JPasswordField();
+        jButton1 = new javax.swing.JButton();
 
         setClosable(true);
         setIconifiable(true);
@@ -29,20 +29,20 @@ public class Formulario01 extends javax.swing.JInternalFrame {
 
         jcMousePanel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sistema/imagenes/fondo.jpg"))); // NOI18N
 
-        lblIcono1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sistema/imagenes/iconoName.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sistema/imagenes/iconoName.png"))); // NOI18N
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sistema/imagenes/password.jpeg"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sistema/imagenes/password.jpeg"))); // NOI18N
 
         lbluser.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
         lbluser.setText("USERNAME");
 
-        lblpassword.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
-        lblpassword.setText("PASSWORD");
+        jLabel4.setFont(new java.awt.Font("Times New Roman", 1, 12)); // NOI18N
+        jLabel4.setText("PASSWORD");
 
-        btninicio.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sistema/imagenes/inicio.jpeg"))); // NOI18N
-        btninicio.addActionListener(new java.awt.event.ActionListener() {
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sistema/imagenes/inicio.jpeg"))); // NOI18N
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btninicioActionPerformed(evt);
+                jButton1ActionPerformed(evt);
             }
         });
 
@@ -51,44 +51,44 @@ public class Formulario01 extends javax.swing.JInternalFrame {
         jcMousePanel1Layout.setHorizontalGroup(
             jcMousePanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jcMousePanel1Layout.createSequentialGroup()
-                .addGap(31, 31, 31)
-                .addGroup(jcMousePanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(lblIcono1)
-                    .addComponent(jLabel1))
-                .addGap(18, 18, 18)
+                .addGap(42, 42, 42)
+                .addGroup(jcMousePanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel2))
+                .addGap(37, 37, 37)
                 .addGroup(jcMousePanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(lbluser, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtuser)
-                    .addComponent(lblpassword, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Contraseña, javax.swing.GroupLayout.DEFAULT_SIZE, 221, Short.MAX_VALUE)
-                    .addGroup(jcMousePanel1Layout.createSequentialGroup()
-                        .addGap(19, 19, 19)
-                        .addComponent(btninicio, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(18, Short.MAX_VALUE))
+                    .addComponent(lbluser, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtusername)
+                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(password, javax.swing.GroupLayout.DEFAULT_SIZE, 195, Short.MAX_VALUE))
+                .addContainerGap(51, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jcMousePanel1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton1)
+                .addGap(124, 124, 124))
         );
         jcMousePanel1Layout.setVerticalGroup(
             jcMousePanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jcMousePanel1Layout.createSequentialGroup()
                 .addGroup(jcMousePanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jcMousePanel1Layout.createSequentialGroup()
-                        .addGap(54, 54, 54)
-                        .addComponent(lblIcono1))
+                        .addGap(64, 64, 64)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jcMousePanel1Layout.createSequentialGroup()
-                        .addGap(93, 93, 93)
-                        .addComponent(lbluser)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(txtuser, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(86, 86, 86)
+                        .addComponent(lbluser, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(txtusername, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jcMousePanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jcMousePanel1Layout.createSequentialGroup()
-                        .addGap(18, 18, 18)
-                        .addComponent(lblpassword)
+                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(Contraseña, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
-                .addComponent(btninicio)
-                .addGap(41, 41, 41))
+                        .addComponent(password, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
+                .addComponent(jButton1)
+                .addGap(33, 33, 33))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -105,12 +105,12 @@ public class Formulario01 extends javax.swing.JInternalFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btninicioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btninicioActionPerformed
-         char clave[] = Contraseña.getPassword();
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+         char clave[] = password.getPassword();
 
         String clavedef = new String(clave);
 
-        if (txtuser.getText().equals("IBERO") && clavedef.equals("IBERO")) {
+        if (txtusername.getText().equals("IBERO") && clavedef.equals("IBERO")) {
 
             this.dispose();
 
@@ -128,17 +128,17 @@ public class Formulario01 extends javax.swing.JInternalFrame {
                     JOptionPane.ERROR_MESSAGE);
 
         }
-    }//GEN-LAST:event_btninicioActionPerformed
+    }//GEN-LAST:event_jButton1ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPasswordField Contraseña;
-    private javax.swing.JButton btninicio;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel4;
     private jcMousePanel.jcMousePanel jcMousePanel1;
-    private javax.swing.JLabel lblIcono1;
-    private javax.swing.JLabel lblpassword;
     private javax.swing.JLabel lbluser;
-    private javax.swing.JTextField txtuser;
+    private javax.swing.JPasswordField password;
+    private javax.swing.JTextField txtusername;
     // End of variables declaration//GEN-END:variables
 }
