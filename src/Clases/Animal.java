@@ -1,11 +1,7 @@
 package Clases;
 
 import java.util.ArrayList;
-
-/**
- *
- * @author RAUL
- */
+/** * * @author YESSENIA */
 public class Animal {
      private ArrayList<String> nombre = new ArrayList<String>();
     private ArrayList<String> apellido = new ArrayList<String>();

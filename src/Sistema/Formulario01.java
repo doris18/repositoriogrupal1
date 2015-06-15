@@ -2,7 +2,7 @@ package Sistema;
 
 import javax.swing.JOptionPane;
 
-/** * * @author RAUL */
+/** * * @author YESSENIA */
 public class Formulario01 extends javax.swing.JInternalFrame {
 
     public Formulario01() {

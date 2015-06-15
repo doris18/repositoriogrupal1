@@ -2,7 +2,7 @@ package Sistema;
 
 import javax.swing.table.DefaultTableModel;
 
-/** * * @author RAUL */
+/** * * @author YESSENIA */
 public class Formulario2 extends javax.swing.JFrame {
 
     public Formulario2() {
